@@ -70,15 +70,19 @@
   </section>
 
   <!-- ABOUT / GREETING -->
-<section id="about" class="py-16 sm:py-24">
+<!-- ABOUT / GREETING -->
+<section id="about" class="py-16 sm:py-24 bg-white">
   <div class="max-w-5xl mx-auto px-4">
-    <div class="reveal text-center">
-      <h2 class="text-2xl sm:text-3xl font-extrabold">인사말</h2>
-      <p class="mt-2 text-neutral-600">제74대 학생회장 연동규 · 부학생회장 정윤하</p>
+
+    <!-- 제목 -->
+    <div class="reveal mb-8">
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-[color:var(--brand)]">
+        인사말
+      </h2>
     </div>
 
-    <!-- 인사말 본문 -->
-    <div class="mt-10 reveal bg-white rounded-2xl border border-neutral-200 shadow-soft p-6 sm:p-10 leading-8 text-neutral-800">
+    <!-- 본문 -->
+    <div class="reveal bg-white rounded-2xl border border-neutral-200 shadow-soft p-6 sm:p-10 leading-8 text-neutral-800">
       <p>
         경북대학교 정치외교학과는 어느새 73년의 세월을 넘어 올해를 맞이했습니다.<br>
         선배님들께서 쌓아주신 명성 덕분에 경북대학교 정치외교학과 제74대 등불 학생회는
@@ -94,18 +98,24 @@
         시대를 이끌어 나갈 리더를 배양하는 경북대 정치외교학과만의 문화를 만들어 나가겠습니다.
       </p>
 
-      <!-- 사진 영역 -->
-      <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-8">
+      <!-- 이름 (오른쪽 정렬) -->
+      <div class="mt-8 text-right text-sm text-neutral-600 font-medium">
+        제74대 학생회장 <strong>연동규</strong> · 제74대 부학생회장 <strong>정윤하</strong> 올림
+      </div>
+
+      <!-- 사진 두 장 -->
+      <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-10">
         <div class="text-center">
-          <img src="assets/president.jpg" alt="연동규 학생회장" class="w-36 h-36 rounded-full object-cover shadow-md mx-auto">
-          <p class="mt-3 font-semibold">제74대 학생회장 연동규</p>
+          <img src="assets/president.jpg" alt="연동규 학생회장" class="w-40 h-40 rounded-full object-cover shadow-md mx-auto border-4 border-[color:var(--brand)]/20">
+          <p class="mt-3 font-semibold text-neutral-800">제74대 학생회장 연동규</p>
         </div>
         <div class="text-center">
-          <img src="assets/vice_president.jpg" alt="정윤하 부학생회장" class="w-36 h-36 rounded-full object-cover shadow-md mx-auto">
-          <p class="mt-3 font-semibold">제74대 부학생회장 정윤하</p>
+          <img src="assets/vice_president.jpg" alt="정윤하 부학생회장" class="w-40 h-40 rounded-full object-cover shadow-md mx-auto border-4 border-[color:var(--brand)]/20">
+          <p class="mt-3 font-semibold text-neutral-800">제74대 부학생회장 정윤하</p>
         </div>
       </div>
     </div>
+
   </div>
 </section>
 
