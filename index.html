@@ -291,40 +291,58 @@
 </section>
 
 
-  <!-- DONATE -->
-  <section id="donate" class="py-16 sm:py-24 bg-neutral-50">
-    <div class="max-w-5xl mx-auto px-4">
-      <div class="reveal text-center">
-        <h2 class="text-2xl sm:text-3xl font-extrabold">후원 안내</h2>
-        <p class="mt-2 text-neutral-600">후원 금액은 모두 학과 내 학회활동 및 학술 · 연구활동 지원, 후원자 행사에만 사용될 예정입니다.  소정의 후원을 통해 정치외교학과 선배님들의 길을 따라갈 수 있도록 도와주십시오.
+<!-- DONATE -->
+<section id="donate" class="py-16 sm:py-24 bg-neutral-50">
+  <div class="max-w-5xl mx-auto px-4">
+    <div class="reveal text-center">
+      <h2 class="text-2xl sm:text-3xl font-extrabold">후원 안내</h2>
+      <p class="mt-2 text-neutral-600">
+        후원 금액은 모두 학과 내 학회활동 및 학술·연구활동 지원, 후원자 행사에만 사용될 예정입니다.
+        소정의 후원을 통해 정치외교학과 선배님들의 길을 따라갈 수 있도록 도와주십시오.
+      </p>
+    </div>
+
+    <div class="mt-8 grid md:grid-cols-2 gap-6">
+      
+      <!-- 후원 계좌 -->
+      <div class="reveal rounded-2xl border border-neutral-200 p-6 sm:p-8 bg-white shadow-soft">
+        <h3 class="font-semibold text-lg">후원 계좌</h3>
+        <ul class="mt-3 space-y-2 text-neutral-700">
+          <li>기업은행 <strong>533-049133-01-010</strong></li>
+          <li>예금주: 김소원(총무부장)</li>
+        </ul>
+
+        <!-- 안내 문구 추가 -->
+        <p class="mt-2 text-sm text-neutral-500 italic">
+          ※ 후원 시 <span class="font-semibold text-[#E24A1D]">“학번 + 이름”</span>을 함께 기입해 주시면 감사하겠습니다.
         </p>
+
+        <div class="mt-5 flex gap-3 flex-wrap">
+          <button id="copyBtn" class="px-4 py-2 rounded-md text-white" style="background: var(--brand);">
+            계좌번호 복사
+          </button>
+          <a target="_blank" rel="noopener" href="https://forms.gle/3jNixcBPTWcUKkV27"
+             class="px-4 py-2 rounded-md border border-neutral-300">
+            후원자 등록 (Google Form)
+          </a>
+        </div>
+
+        <p id="copyMsg" class="mt-2 text-sm text-green-600 hidden">복사되었습니다!</p>
       </div>
 
-      <div class="mt-8 grid md:grid-cols-2 gap-6">
-        <div class="reveal rounded-2xl border border-neutral-200 p-6 sm:p-8 bg-white shadow-soft">
-          <h3 class="font-semibold">후원 계좌</h3>
-          <ul class="mt-3 space-y-2 text-neutral-700">
-            <li>기업은행 <strong>533-049133-01-010</strong></li>
-            <li>예금주: 김소원(총무부장)</li>
-          </ul>
-          <div class="mt-5 flex gap-3">
-            <button id="copyBtn" class="px-4 py-2 rounded-md text-white" style="background: var(--brand);">계좌번호 복사</button>
-            <a target="_blank" rel="noopener" href="https://forms.gle/3jNixcBPTWcUKkV27" class="px-4 py-2 rounded-md border border-neutral-300">후원자 등록 (Google Form)</a>
-          </div>
-          <p id="copyMsg" class="mt-2 text-sm text-green-600 hidden">복사되었습니다!</p>
-        </div>
-
-        <div class="reveal rounded-2xl border border-neutral-200 p-6 sm:p-8 bg-white shadow-soft">
-          <h3 class="font-semibold">연락처 · 주소</h3>
-          <ul class="mt-3 space-y-2 text-neutral-700">
-            <li>주소: 41566 대구광역시 북구 대학로 80, 경북대학교 사회과학대 정치외교학과 학생회실 251-1</li>
-            <li>학생회장: 연동규 010-8339-7383</li>
-            <li>부학생회장: 정윤하 010-6767-6630</li>
-          </ul>
-        </div>
+      <!-- 연락처 -->
+      <div class="reveal rounded-2xl border border-neutral-200 p-6 sm:p-8 bg-white shadow-soft">
+        <h3 class="font-semibold text-lg">연락처 · 주소</h3>
+        <ul class="mt-3 space-y-2 text-neutral-700">
+          <li>주소: 41566 대구광역시 북구 대학로 80, 경북대학교 사회과학대 정치외교학과 학생회실 251-1</li>
+          <li>학생회장: 연동규 010-8339-7383</li>
+          <li>부학생회장: 정윤하 010-6767-6630</li>
+        </ul>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
 
 <!-- Instagram Follow Section -->
 <section class="bg-[#FFF4EE] py-12">
